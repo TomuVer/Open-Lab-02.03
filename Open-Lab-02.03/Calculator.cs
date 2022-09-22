@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Open_Lab_02._03
 {
@@ -6,6 +6,8 @@ namespace Open_Lab_02._03
     {
         public int Remainder(int dividend, int divisor)
         {
+            return dividend % divisor;
+
             throw new NotImplementedException();
         }
     }
